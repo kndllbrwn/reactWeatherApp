@@ -21,7 +21,7 @@ var Greeter = React.createClass({
             this.setState({
                 name: name
             });
-        }
+        } 
     },
     render: function (){
         var name = this.state.name;

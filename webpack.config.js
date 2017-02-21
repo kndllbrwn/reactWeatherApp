@@ -5,7 +5,7 @@ module.exports = {
         filename: '.public/bundle.js'
     },
     resolve: {
-        extensions: ['', '.js', 'jsx']
+        extensions: ['', '.js', '.jsx']
     },
     module: {
         loaders: [
@@ -14,7 +14,7 @@ module.exports = {
                 query: {
                     presets: ['react', 'es2015']
                 },
-                test: /\.jsx$/,
+                test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
             }
         ]

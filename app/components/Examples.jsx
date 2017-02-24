@@ -7,10 +7,10 @@ var Examples = () => {
       <p>Here a few examples to try out:</p>
       <ol>
         <li>
-          <Link to='/?Washington, D.C.'>Washington, D.C.</Link>
+          <Link to='/?location=Washington, D.C.'>Washington, D.C.</Link>
         </li>
         <li>
-          <Link to='/?20003'>20003</Link>
+          <Link to='/?location=20003'>20003</Link>
         </li>
       </ol>
     </div>
